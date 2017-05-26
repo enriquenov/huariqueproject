@@ -1,0 +1,374 @@
+/*!
+ * Start Bootstrap - Business Casual (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: palegoldenrod;
+}
+
+@font-face {
+    font-family: 'CFPeruAdventure';
+    src: url('../fonts/CFPeruAdventure-Regular.ttf');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #b29600;
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h2 small, h3 small {
+    color: #ffeb7f;
+    text-transform: none;
+}
+
+p {
+    color: #ffeb7f;
+    font-size: 1.25em;
+    font-weight: 100;
+    letter-spacing: 0.04em;
+    line-height: 1.9;
+    margin: 10px 0;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #ffeb7f;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #B29600;
+}
+
+.container>.navbar-header {
+  background-color: rgba(0,0,0,0.95);
+  border-color: goldenrod;
+}
+
+.navbar-default .navbar-brand {
+  color: goldenrod;
+  font-family: 'CFPeruAdventure';
+  font-size: 139%;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.navbar-default .navbar-toggle {
+  background-color: goldenrod;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  background-color: rgba(0,0,0,0.8);
+}
+
+nav.navbar.navbar-default {
+  background-color: rgba(0,0,0,0);
+  border-color: grey;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    font-family: 'CFPeruAdventure';
+    font-size: 3em;
+    letter-spacing: 0.2em;
+    margin: 0;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #000;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+}
+
+.carousel-indicators li {
+  border-color: #ffef99;
+  height: 15px;
+  margin: 2px;
+  width: 15px;
+}
+
+.carousel-indicators .active {
+  border-color: #ffef99;
+  background-color: #ffef99;
+  height: 17px;
+  margin: 1px;
+  width: 17px;
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 25px 0;
+    border: #999999 solid 1px;
+}
+
+div.reservations1 button.reservation {
+  text-decoration: none;
+  background: none;
+  border: none;
+  color: goldenrod;
+  border-bottom: 1px solid goldenrod;
+  font-size: 20px;
+  margin: 60px 0;
+}
+
+div.reservations1 button.reservation:hover {
+  border: none;
+  opacity: 0.7;
+}
+
+button.reservation.send {
+  margin: 20px 0 10px;
+  text-decoration: none;
+  background-color: none;
+  border: none;
+}
+
+img.reserve {
+  padding: 0;
+  width: 100%;
+}
+
+div.box.reservations1 {
+  margin-bottom: 0;
+}
+
+div.reservations2 {
+  padding: 25px;
+}
+
+.col-xs-6, .col-xs-12 {
+  padding-left: 0;
+  padding-right: 0;
+  padding: 3px;
+}
+
+img.menu {
+  opacity: 0.75;
+}
+
+.form-control {
+  color: palegoldenrod;
+  background-color: #222;
+  border-color: palegoldenrod;
+}
+
+a.apply {
+  color: goldenrod;
+  border-bottom: 1px solid goldenrod;
+  padding: 2px;
+  text-decoration: none;
+}
+
+a.apply:hover {
+  border: none;
+  opacity: 0.7;
+}
+
+strong {
+  font-size: 110%;
+}
+
+footer {
+    background: #ddd;
+    background: rgba(0,0,0,0.8);
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+
+/*SOCIAL MEDIA */
+
+
+ul.socialmedia {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+ul.socialmedia li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ul.socialmedia li a i {
+  background-color: none;
+  color: goldenrod;
+  font-size: 1.7em;
+}
+
+.fa-facebook {
+  padding: 6px 9px;
+}
+
+div.contactform {
+  padding-bottom: 40px;
+}
+
+
+@media screen and (max-width:1199px) {
+  .secondp {
+    display: none;
+  }
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0 20px;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "CFPeruAdventure","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        letter-spacing: 0.2em;
+        line-height: normal;
+        color: rgba(0,0,0,0.65);
+    }
+
+    .brand span {
+      font-size: 1.3em;
+    }
+
+    .brand-name span {
+      font-size: 1.4em;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: palegoldenrod;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: #000;
+        background: rgba(0,0,0,0.7);
+    }
+
+    .nav>li>a {
+        font-size: 1em;
+        padding: 23px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-wdith:950px) {
+  .nav>li>a {
+      padding: 35px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
